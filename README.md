@@ -1,13 +1,13 @@
-4. Singleton
+## 4. Singleton
 
 
-4.1.Exercício:
+### 4.1.Exercício:
 
-
+```
 Escreva, compile e execute o programa abaixo. Em seguida, troque sua implementação para que a classe
 Incremental seja Singleton. Execute novamente e veja os resultados.
-
-
+```
+```
 class Incremental {
 	private static int count = 0;
 	private int numero;
@@ -24,15 +24,16 @@ class Incremental {
 
 
 }
+```
 
-
-	public class TesteIncremental {
+```
+public class TesteIncremental {
 	
-	p
-	ublic static void main(String[] args) {
+	public static void main(String[] args) {
 		for (int i = 0; i < 10; i++) {
 		Incremental inc = new Incremental();
 		System.out.println(inc);
 		}
 	}
 }
+```
