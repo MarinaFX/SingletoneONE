@@ -3,10 +3,10 @@
 
 ### 4.1.Exercício:
 
-```
+
 Escreva, compile e execute o programa abaixo. Em seguida, troque sua implementação para que a classe
 Incremental seja Singleton. Execute novamente e veja os resultados.
-```
+
 ```
 class Incremental {
 	private static int count = 0;
